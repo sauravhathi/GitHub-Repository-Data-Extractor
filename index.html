@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+    <title>GitHub Repository Data Extractor</title>
+</head>
+
+<body>
+    <label for="repo-url">Repository URL</label>
+    <input type="text" id="repo-url" value="https://github.com/sauravhathi/lpu-cse/tree/master/Subjects"
+        onkeyup="getExtrctedData()">
+    <button onclick="getExtrctedData()" id="extract-btn">Extract Data</button>
+    <label for=" json">JSON</label>
+    <textarea id="json" cols="30" rows="10"></textarea>
+    <label for="markdown">Markdown</label>
+    <textarea id="markdown" cols="30" rows="10"></textarea>
+</body>
+</html>
