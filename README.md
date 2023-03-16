@@ -21,8 +21,8 @@ This is a simple tool that extracts data from a GitHub repository and formats it
 
 ## Demo
 
-![Demo]()
+### https://sauravhathi.github.io/GitHub-Repository-Data-Extractor
 
 ## License
 
-[MIT](https://choosealicense.com/licenses/mit/)
+[MIT](https://github.com/sauravhathi/GitHub-Repository-Data-Extractor/blob/master/LICENSE)
